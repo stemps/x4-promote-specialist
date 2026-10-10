@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="swap_crew"
+  name="Swap Crew"
+  description="Replace this person with a better skilled one."
+  author="Simon Stemplinger"
+  version="0"
+  date="2026-10-10"
+  save="false"
+  enabled="true">
+  <dependency version="900" name="X4: Foundations" />
+</content>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Page 990483 belongs to this mod. t/ files are unioned across base, DLC and
+     mods, so another mod using the same page id would merge entries with it. -->
+<language>
+  <page id="990483" title="Swap Crew" voice="no">
+    <t id="1">Swap Crew</t>
+  </page>
+</language>
