@@ -2,5 +2,21 @@
 <language id="48">
   <page id="990483" title="Swap Crew" voice="no">
     <t id="1">Swap Crew</t>
+    <t id="10">Zamień załogę</t>
+    <t id="11">Rekrutuj z załogi</t>
+    <t id="20">Zastąp</t>
+    <t id="21">Najlepszy dostępny</t>
+    <t id="23">lub lepiej</t>
+    <t id="24">Dostępnych: %d</t>
+    <t id="25">Brak wolnej załogi serwisowej na tym poziomie</t>
+    <t id="26">Obecnie:</t>
+    <t id="27">Wybiera %s na %s %s</t>
+    <t id="30">Wolne stanowisko. Kliknij prawym, aby rekrutować z załogi</t>
+    <t id="40">Zamiana niemożliwa: %s</t>
+    <t id="42">Brak wolnej załogi serwisowej</t>
+    <t id="43">Trwa transfer załogi</t>
+    <t id="44">Statek wykonuje krytyczny rozkaz</t>
+    <t id="45">Stocznia ma zamówienia w kolejce</t>
+    <t id="46">Niemożliwe dla tego stanowiska</t>
   </page>
 </language>

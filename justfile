@@ -10,7 +10,11 @@ default:
 # ---------------------------------------------------------------------------
 
 # Everyday gate. Add this mod's own checks (tests, validation) as dependencies.
-check: translations
+check: translations lua-tests
+
+# UI Lua compiles under LuaJIT and the selection logic behaves as specified.
+lua-tests:
+    uv run --quiet --no-project --with pytest --with lupa pytest -q tests
 
 # ---------------------------------------------------------------------------
 # Shared tasks from x4-modkit. Keep this block identical to `x4mod justfile`;

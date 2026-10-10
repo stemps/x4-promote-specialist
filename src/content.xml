@@ -2,7 +2,7 @@
 <content id="swap_crew"
   name="Swap Crew"
   description="Replace this person with a better skilled one."
-  author="Simon Stemplinger"
+  author="stemps"
   version="0"
   date="2026-10-10"
   save="false"

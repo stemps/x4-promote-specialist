@@ -2,5 +2,21 @@
 <language id="33">
   <page id="990483" title="Swap Crew" voice="no">
     <t id="1">Swap Crew</t>
+    <t id="10">Échanger l'équipage</t>
+    <t id="11">Recruter parmi l'équipage</t>
+    <t id="20">Remplacer</t>
+    <t id="21">Meilleur disponible</t>
+    <t id="23">ou mieux</t>
+    <t id="24">%d disponible\(s\)</t>
+    <t id="25">Aucun membre d'équipage de service libre à ce niveau</t>
+    <t id="26">Actuel :</t>
+    <t id="27">Choix : %s sur %s %s</t>
+    <t id="30">Poste vacant. Clic droit pour recruter parmi l'équipage</t>
+    <t id="40">Échange impossible : %s</t>
+    <t id="42">Aucun membre d'équipage de service libre</t>
+    <t id="43">Transfert d'équipage en cours</t>
+    <t id="44">Le vaisseau exécute un ordre critique</t>
+    <t id="45">Le chantier naval a des constructions en attente</t>
+    <t id="46">Impossible pour ce poste</t>
   </page>
 </language>

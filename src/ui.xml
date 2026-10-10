@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon name="swap_crew" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../ui/core/addon.xsd">
+  <environment type="menus">
+    <file name="ui/swap_crew/ffi.lua" />
+    <file name="ui/swap_crew/model.lua" />
+    <file name="ui/swap_crew/scheduler.lua" />
+    <file name="ui/swap_crew/candidates.lua" />
+    <file name="ui/swap_crew/target.lua" />
+    <file name="ui/swap_crew/executor.lua" />
+    <file name="ui/swap_crew/dialog.lua" />
+    <file name="ui/swap_crew/menu_hooks.lua" />
+    <dependency name="ego_detailmonitor" />
+  </environment>
+</addon>

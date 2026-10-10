@@ -2,5 +2,21 @@
 <language id="55">
   <page id="990483" title="Swap Crew" voice="no">
     <t id="1">Swap Crew</t>
+    <t id="10">Trocar tripulação</t>
+    <t id="11">Recrutar da tripulação</t>
+    <t id="20">Substituir</t>
+    <t id="21">Melhor disponível</t>
+    <t id="23">ou melhor</t>
+    <t id="24">%d disponíveis</t>
+    <t id="25">Nenhum tripulante de serviço livre neste nível</t>
+    <t id="26">Atual:</t>
+    <t id="27">Escolhe %s em %s %s</t>
+    <t id="30">Posto vago. Clique direito para recrutar da tripulação</t>
+    <t id="40">Troca impossível: %s</t>
+    <t id="42">Nenhum tripulante de serviço livre</t>
+    <t id="43">Transferência de tripulação em andamento</t>
+    <t id="44">A nave está executando uma ordem crítica</t>
+    <t id="45">O estaleiro tem construções na fila</t>
+    <t id="46">Não é possível para este posto</t>
   </page>
 </language>
