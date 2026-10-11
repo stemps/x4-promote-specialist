@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon name="swap_crew" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../ui/core/addon.xsd">
+<addon name="promote_specialist" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../ui/core/addon.xsd">
   <environment type="menus">
-    <file name="ui/swap_crew/ffi.lua" />
-    <file name="ui/swap_crew/model.lua" />
-    <file name="ui/swap_crew/scheduler.lua" />
-    <file name="ui/swap_crew/candidates.lua" />
-    <file name="ui/swap_crew/target.lua" />
-    <file name="ui/swap_crew/executor.lua" />
-    <file name="ui/swap_crew/dialog.lua" />
-    <file name="ui/swap_crew/menu_hooks.lua" />
+    <file name="ui/promote_specialist/ffi.lua" />
+    <file name="ui/promote_specialist/model.lua" />
+    <file name="ui/promote_specialist/scheduler.lua" />
+    <file name="ui/promote_specialist/candidates.lua" />
+    <file name="ui/promote_specialist/target.lua" />
+    <file name="ui/promote_specialist/executor.lua" />
+    <file name="ui/promote_specialist/manager_move.lua" />
+    <file name="ui/promote_specialist/candidate_card.lua" />
+    <file name="ui/promote_specialist/dialog.lua" />
+    <file name="ui/promote_specialist/interact_hooks.lua" />
+    <file name="ui/promote_specialist/menu_hooks.lua" />
     <dependency name="ego_detailmonitor" />
+    <dependency name="ego_interactmenu" />
   </environment>
 </addon>

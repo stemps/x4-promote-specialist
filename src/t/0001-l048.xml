@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="48">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Zamień załogę</t>
-    <t id="11">Rekrutuj z załogi</t>
-    <t id="20">Zastąp</t>
-    <t id="21">Najlepszy dostępny</t>
-    <t id="23">lub lepiej</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Awansuj specjalistę</t>
+    <t id="11">Awansuj specjalistę</t>
+    <t id="20">Zastąp %s specjalistą</t>
+    <t id="21">Dowolne</t>
     <t id="24">Dostępnych: %d</t>
-    <t id="25">Brak wolnej załogi serwisowej na tym poziomie</t>
+    <t id="25">Nikt nie jest dostępny. Wybierz inne role lub oceny.</t>
     <t id="26">Obecnie:</t>
-    <t id="27">Wybiera %s na %s %s</t>
-    <t id="30">Wolne stanowisko. Kliknij prawym, aby rekrutować z załogi</t>
-    <t id="40">Zamiana niemożliwa: %s</t>
-    <t id="42">Brak wolnej załogi serwisowej</t>
+    <t id="28">Wybierz spośród</t>
+    <t id="29">Kandydat</t>
+    <t id="30">Wolne stanowisko. Kliknij prawym przyciskiem, aby awansować specjalistę</t>
+    <t id="31">Zostań tutaj \(jako załoga serwisowa\)</t>
+    <t id="32">Zamień ze specjalistą</t>
+    <t id="33">Awansuj: %s</t>
+    <t id="34">Zostań tutaj i awansuj następnego najlepszego pilota u źródła</t>
+    <t id="35">Załoga serwisowa</t>
+    <t id="36">Marine</t>
+    <t id="37">na %s</t>
+    <t id="38">ten sam statek</t>
+    <t id="39">ten sam sektor</t>
+    <t id="40">Awans niemożliwy: %s</t>
+    <t id="42">Ta osoba nie jest już dostępna</t>
     <t id="43">Trwa transfer załogi</t>
     <t id="44">Statek wykonuje krytyczny rozkaz</t>
     <t id="45">Stocznia ma zamówienia w kolejce</t>
     <t id="46">Niemożliwe dla tego stanowiska</t>
+    <t id="47">Brak wolnego miejsca dla załogi</t>
+    <t id="48">Stanowisko jest wolne</t>
+    <t id="49">Niemożliwe dla załogi serwisowej</t>
+    <t id="50">Załoga serwisowa</t>
+    <t id="51">Marines</t>
+    <t id="52">Piloci</t>
+    <t id="53">Menedżerowie</t>
+    <t id="55">Tylko przy awansie pilota statku</t>
+    <t id="56">Nikogo do awansu na statku ani stacji kandydata</t>
+    <t id="57">Pilot</t>
+    <t id="58">Zostawia %s bez pilota</t>
+    <t id="59">Tylko przy awansie menedżera stacji</t>
+    <t id="60">Menedżer</t>
+    <t id="61">Zostawia %s bez menedżera</t>
+    <t id="64">Żaden statek nie może po drodze przyjąć tego menedżera</t>
   </page>
 </language>

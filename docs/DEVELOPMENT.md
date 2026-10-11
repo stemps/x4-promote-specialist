@@ -14,7 +14,7 @@ See [Runtime architecture](../ARCHITECTURE.md) for module responsibilities.
 
 ## Local development setup
 
-`just link` creates a junction from the game's `extensions/swap_crew` to `src/`, so
+`just link` creates a junction from the game's `extensions/promote_specialist` to `src/`, so
 the game loads your working copy directly; `just unlink` removes only the junction.
 Paths come from environment variables or `~/.config/x4-modkit/paths.env`
 (`x4mod config` shows what resolved). `just log` follows the game's `debug.txt`.

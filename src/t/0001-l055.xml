@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="55">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Trocar tripulação</t>
-    <t id="11">Recrutar da tripulação</t>
-    <t id="20">Substituir</t>
-    <t id="21">Melhor disponível</t>
-    <t id="23">ou melhor</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Promover especialista</t>
+    <t id="11">Promover especialista</t>
+    <t id="20">Substituir %s por um especialista</t>
+    <t id="21">Qualquer</t>
     <t id="24">%d disponíveis</t>
-    <t id="25">Nenhum tripulante de serviço livre neste nível</t>
+    <t id="25">Ninguém disponível. Escolha outras funções ou classificações.</t>
     <t id="26">Atual:</t>
-    <t id="27">Escolhe %s em %s %s</t>
-    <t id="30">Posto vago. Clique direito para recrutar da tripulação</t>
-    <t id="40">Troca impossível: %s</t>
-    <t id="42">Nenhum tripulante de serviço livre</t>
+    <t id="28">Escolher entre</t>
+    <t id="29">Candidato</t>
+    <t id="30">Posto vago. Clique com o botão direito para promover um especialista</t>
+    <t id="31">Ficar aqui \(como tripulação de serviço\)</t>
+    <t id="32">Trocar com o especialista</t>
+    <t id="33">Promover %s</t>
+    <t id="34">Ficar aqui e promover o próximo melhor piloto na origem</t>
+    <t id="35">Tripulação de serviço</t>
+    <t id="36">Fuzileiro</t>
+    <t id="37">em %s</t>
+    <t id="38">mesma nave</t>
+    <t id="39">mesmo setor</t>
+    <t id="40">Promoção impossível: %s</t>
+    <t id="42">Esta pessoa não está mais disponível</t>
     <t id="43">Transferência de tripulação em andamento</t>
     <t id="44">A nave está executando uma ordem crítica</t>
     <t id="45">O estaleiro tem construções na fila</t>
     <t id="46">Não é possível para este posto</t>
+    <t id="47">Nenhuma vaga de tripulação livre aqui</t>
+    <t id="48">O posto está vago</t>
+    <t id="49">Impossível para tripulação de serviço</t>
+    <t id="50">Tripulação de serviço</t>
+    <t id="51">Fuzileiros</t>
+    <t id="52">Pilotos</t>
+    <t id="53">Gerentes</t>
+    <t id="55">Apenas ao promover um piloto de nave</t>
+    <t id="56">Ninguém para promover na nave ou estação do candidato</t>
+    <t id="57">Piloto</t>
+    <t id="58">Deixa %s sem piloto</t>
+    <t id="59">Apenas ao promover um gerente de estação</t>
+    <t id="60">Gerente</t>
+    <t id="61">Deixa %s sem gerente</t>
+    <t id="64">Nenhuma nave pode levar este gerente no caminho</t>
   </page>
 </language>

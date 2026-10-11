@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="42">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Vyměnit posádku</t>
-    <t id="11">Najmout z posádky</t>
-    <t id="20">Nahradit</t>
-    <t id="21">Nejlepší dostupný</t>
-    <t id="23">nebo lepší</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Povýšit specialistu</t>
+    <t id="11">Povýšit specialistu</t>
+    <t id="20">Nahradit %s specialistou</t>
+    <t id="21">Libovolné</t>
     <t id="24">Dostupných: %d</t>
-    <t id="25">Na této úrovni není volná servisní posádka</t>
+    <t id="25">Nikdo není k dispozici. Vyberte jiné role nebo hodnocení.</t>
     <t id="26">Nyní:</t>
-    <t id="27">Vybere %s na %s %s</t>
-    <t id="30">Neobsazený post. Pravým kliknutím najmete z posádky</t>
-    <t id="40">Výměna není možná: %s</t>
-    <t id="42">Žádná volná servisní posádka</t>
+    <t id="28">Vybírat z</t>
+    <t id="29">Kandidát</t>
+    <t id="30">Neobsazené místo. Pravým kliknutím povýšíte specialistu</t>
+    <t id="31">Zůstat zde \(jako servisní posádka\)</t>
+    <t id="32">Vyměnit se specialistou</t>
+    <t id="33">Povýšit: %s</t>
+    <t id="34">Zůstat zde a povýšit dalšího nejlepšího pilota u zdroje</t>
+    <t id="35">Servisní posádka</t>
+    <t id="36">Mariňák</t>
+    <t id="37">na %s</t>
+    <t id="38">stejná loď</t>
+    <t id="39">stejný sektor</t>
+    <t id="40">Povýšení není možné: %s</t>
+    <t id="42">Tato osoba již není k dispozici</t>
     <t id="43">Probíhá přesun posádky</t>
     <t id="44">Loď plní kritický rozkaz</t>
     <t id="45">Loděnice má ve frontě stavby lodí</t>
     <t id="46">Pro tento post není možné</t>
+    <t id="47">Zde není volné místo pro posádku</t>
+    <t id="48">Místo je neobsazené</t>
+    <t id="49">Pro servisní posádku není možné</t>
+    <t id="50">Servisní posádka</t>
+    <t id="51">Mariňáci</t>
+    <t id="52">Piloti</t>
+    <t id="53">Manažeři</t>
+    <t id="55">Pouze při povýšení pilota lodi</t>
+    <t id="56">Na lodi ani stanici kandidáta není nikdo k povýšení</t>
+    <t id="57">Pilot</t>
+    <t id="58">Nechá %s bez pilota</t>
+    <t id="59">Pouze při povýšení manažera stanice</t>
+    <t id="60">Manažer</t>
+    <t id="61">Nechá %s bez manažera</t>
+    <t id="64">Žádná loď nemůže tohoto manažera po cestě převzít</t>
   </page>
 </language>

@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="33">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Échanger l'équipage</t>
-    <t id="11">Recruter parmi l'équipage</t>
-    <t id="20">Remplacer</t>
-    <t id="21">Meilleur disponible</t>
-    <t id="23">ou mieux</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Promouvoir un spécialiste</t>
+    <t id="11">Promouvoir un spécialiste</t>
+    <t id="20">Remplacer %s par un spécialiste</t>
+    <t id="21">Tous</t>
     <t id="24">%d disponible\(s\)</t>
-    <t id="25">Aucun membre d'équipage de service libre à ce niveau</t>
+    <t id="25">Personne de disponible. Choisissez d'autres rôles ou niveaux d'étoiles.</t>
     <t id="26">Actuel :</t>
-    <t id="27">Choix : %s sur %s %s</t>
-    <t id="30">Poste vacant. Clic droit pour recruter parmi l'équipage</t>
-    <t id="40">Échange impossible : %s</t>
-    <t id="42">Aucun membre d'équipage de service libre</t>
+    <t id="28">Choisir parmi</t>
+    <t id="29">Candidat</t>
+    <t id="30">Poste vacant. Clic droit pour promouvoir un spécialiste</t>
+    <t id="31">Rester ici \(en équipage de service\)</t>
+    <t id="32">Échanger avec le spécialiste</t>
+    <t id="33">Promouvoir %s</t>
+    <t id="34">Rester ici et promouvoir le meilleur pilote suivant à la source</t>
+    <t id="35">Équipage de service</t>
+    <t id="36">Marine</t>
+    <t id="37">sur %s</t>
+    <t id="38">même vaisseau</t>
+    <t id="39">même secteur</t>
+    <t id="40">Promotion impossible : %s</t>
+    <t id="42">Cette personne n'est plus disponible</t>
     <t id="43">Transfert d'équipage en cours</t>
     <t id="44">Le vaisseau exécute un ordre critique</t>
     <t id="45">Le chantier naval a des constructions en attente</t>
     <t id="46">Impossible pour ce poste</t>
+    <t id="47">Aucune place d'équipage libre ici</t>
+    <t id="48">Le poste est vacant</t>
+    <t id="49">Impossible pour l'équipage de service</t>
+    <t id="50">Équipage de service</t>
+    <t id="51">Marines</t>
+    <t id="52">Pilotes</t>
+    <t id="53">Gestionnaires</t>
+    <t id="55">Uniquement pour promouvoir un pilote de vaisseau</t>
+    <t id="56">Personne à promouvoir sur le vaisseau ou la station du candidat</t>
+    <t id="57">Pilote</t>
+    <t id="58">Laisse %s sans pilote</t>
+    <t id="59">Uniquement pour promouvoir un gestionnaire de station</t>
+    <t id="60">Gestionnaire</t>
+    <t id="61">Laisse %s sans gestionnaire</t>
+    <t id="64">Aucun vaisseau ne peut accueillir ce gestionnaire en route</t>
   </page>
 </language>

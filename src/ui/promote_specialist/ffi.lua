@@ -1,4 +1,4 @@
--- FFI declarations and logging shared by all Swap Crew modules.
+-- FFI declarations and logging shared by all Promote Specialist modules.
 --
 -- Vanilla menus declare most of these in the same Lua state. Their structs are
 -- anonymous typedefs, so declaring one again would create a second, incompatible
@@ -7,14 +7,14 @@
 local ffi = require("ffi")
 local C = ffi.C
 
-SwapCrew = SwapCrew or {}
-SwapCrew.PAGE = 990483
+PromoteSpecialist = PromoteSpecialist or {}
+PromoteSpecialist.PAGE = 990483
 
 local function log(fmt, ...)
 	local ok, msg = pcall(string.format, fmt, ...)
-	DebugError("[SwapCrew] " .. (ok and msg or tostring(fmt)))
+	DebugError("[PromoteSpecialist] " .. (ok and msg or tostring(fmt)))
 end
-SwapCrew.log = log
+PromoteSpecialist.log = log
 
 local function hasType(name)
 	return (pcall(ffi.typeof, name))
@@ -31,6 +31,7 @@ local types = {
 	{ "CrewTransferContainer", "typedef struct { const char* newroleid; NPCSeed seed; uint32_t amount; } CrewTransferContainer;" },
 	{ "NPCInfo", "typedef struct { NPCSeed seed; const char* roleid; int32_t tierid; const char* name; int32_t combinedskill; } NPCInfo;" },
 	{ "UICrewExchangeResult", "typedef struct { const char* reason; NPCSeed person; NPCSeed partnerperson; } UICrewExchangeResult;" },
+	{ "Skill2", "typedef struct { uint32_t textid; uint32_t descriptionid; uint32_t value; uint32_t relevance; } Skill2;" },
 }
 
 local funcs = {
@@ -50,6 +51,8 @@ local funcs = {
 	{ "IsPerson", "bool IsPerson(NPCSeed person, UniverseID controllableid);" },
 	{ "GetNumAllFactionShips", "uint32_t GetNumAllFactionShips(const char* factionid);" },
 	{ "GetAllFactionShips", "uint32_t GetAllFactionShips(UniverseID* result, uint32_t resultlen, const char* factionid);" },
+	{ "GetNumAllFactionStations", "uint32_t GetNumAllFactionStations(const char* factionid);" },
+	{ "GetAllFactionStations", "uint32_t GetAllFactionStations(UniverseID* result, uint32_t resultlen, const char* factionid);" },
 	{ "IsComponentClass", "bool IsComponentClass(UniverseID componentid, const char* classname);" },
 	{ "IsComponentOperational", "bool IsComponentOperational(UniverseID componentid);" },
 	{ "IsUnit", "bool IsUnit(UniverseID controllableid);" },
@@ -58,6 +61,9 @@ local funcs = {
 	{ "GetDistanceBetween", "float GetDistanceBetween(UniverseID component1id, UniverseID component2id);" },
 	{ "GetContextByClass", "UniverseID GetContextByClass(UniverseID componentid, const char* classname, bool includeself);" },
 	{ "GetComponentName", "const char* GetComponentName(UniverseID componentid);" },
+	{ "GetNumSkills", "uint32_t GetNumSkills(void);" },
+	{ "GetPersonSkillsForAssignment", "uint32_t GetPersonSkillsForAssignment(Skill2* result, NPCSeed person, UniverseID controllableid, const char* role, const char* postid);" },
+	{ "GetPeopleCapacity", "uint32_t GetPeopleCapacity(UniverseID controllableid, const char* macroname, bool includepilot);" },
 	{ "GetNumBuildTasks", "uint32_t GetNumBuildTasks(UniverseID containerid, UniverseID buildmoduleid, bool isinprogress, bool includeupgrade);" },
 }
 
@@ -88,16 +94,16 @@ end
 
 -- Stable string key for an NPCSeed. Seeds are full 64-bit values, so they must
 -- never pass through a Lua number.
-function SwapCrew.seedKey(seed)
+function PromoteSpecialist.seedKey(seed)
 	return tostring(ffi.cast("uint64_t", seed))
 end
 
 -- Component id (LuaID, string or cdata) as a Lua number, like vanilla menus use.
-function SwapCrew.id64(component)
+function PromoteSpecialist.id64(component)
 	return ConvertStringTo64Bit(tostring(component))
 end
 
 -- Localised text from this mod's page.
-function SwapCrew.text(id)
-	return ReadText(SwapCrew.PAGE, id)
+function PromoteSpecialist.text(id)
+	return ReadText(PromoteSpecialist.PAGE, id)
 end

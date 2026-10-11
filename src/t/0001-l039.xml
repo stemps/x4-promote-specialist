@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="39">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Scambia equipaggio</t>
-    <t id="11">Recluta dall'equipaggio</t>
-    <t id="20">Sostituisci</t>
-    <t id="21">Migliore disponibile</t>
-    <t id="23">o superiore</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Promuovi specialista</t>
+    <t id="11">Promuovi specialista</t>
+    <t id="20">Sostituisci %s con uno specialista</t>
+    <t id="21">Qualsiasi</t>
     <t id="24">%d disponibili</t>
-    <t id="25">Nessun membro di servizio libero a questo livello</t>
+    <t id="25">Nessuno disponibile. Scegli altri ruoli o valutazioni.</t>
     <t id="26">Attuale:</t>
-    <t id="27">Sceglie %s su %s %s</t>
-    <t id="30">Posto vacante. Clic destro per reclutare dall'equipaggio</t>
-    <t id="40">Scambio impossibile: %s</t>
-    <t id="42">Nessun membro di servizio libero</t>
+    <t id="28">Scegli tra</t>
+    <t id="29">Candidato</t>
+    <t id="30">Posto vacante. Clic destro per promuovere uno specialista</t>
+    <t id="31">Resta qui \(come equipaggio di servizio\)</t>
+    <t id="32">Scambia con lo specialista</t>
+    <t id="33">Promuovi %s</t>
+    <t id="34">Resta qui e promuovi il miglior pilota successivo all'origine</t>
+    <t id="35">Equipaggio di servizio</t>
+    <t id="36">Marine</t>
+    <t id="37">su %s</t>
+    <t id="38">stessa nave</t>
+    <t id="39">stesso settore</t>
+    <t id="40">Promozione impossibile: %s</t>
+    <t id="42">Questa persona non è più disponibile</t>
     <t id="43">Trasferimento equipaggio in corso</t>
     <t id="44">La nave sta eseguendo un ordine critico</t>
     <t id="45">Il cantiere ha costruzioni in coda</t>
     <t id="46">Non possibile per questo posto</t>
+    <t id="47">Nessun posto libero per l'equipaggio qui</t>
+    <t id="48">Il posto è vacante</t>
+    <t id="49">Non possibile per l'equipaggio di servizio</t>
+    <t id="50">Equipaggio di servizio</t>
+    <t id="51">Marine</t>
+    <t id="52">Piloti</t>
+    <t id="53">Manager</t>
+    <t id="55">Solo quando si promuove un pilota di nave</t>
+    <t id="56">Nessuno da promuovere sulla nave o stazione del candidato</t>
+    <t id="57">Pilota</t>
+    <t id="58">Lascia %s senza pilota</t>
+    <t id="59">Solo quando si promuove un manager di stazione</t>
+    <t id="60">Manager</t>
+    <t id="61">Lascia %s senza manager</t>
+    <t id="64">Nessuna nave può accogliere questo manager durante il tragitto</t>
   </page>
 </language>

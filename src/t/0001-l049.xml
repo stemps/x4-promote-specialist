@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="49">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Crew tauschen</t>
-    <t id="11">Aus der Crew rekrutieren</t>
-    <t id="20">Ersetzen</t>
-    <t id="21">Bester verfügbarer</t>
-    <t id="23">oder besser</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Spezialist befördern</t>
+    <t id="11">Spezialist befördern</t>
+    <t id="20">%s durch Spezialisten ersetzen</t>
+    <t id="21">Alle</t>
     <t id="24">%d verfügbar</t>
-    <t id="25">Keine freie Servicecrew auf dieser Stufe</t>
+    <t id="25">Niemand verfügbar. Andere Crew-Rollen oder Sternwertungen wählen.</t>
     <t id="26">Aktuell:</t>
-    <t id="27">Wählt %s auf %s %s</t>
-    <t id="30">Unbesetzter Posten. Rechtsklick, um aus der Crew zu rekrutieren</t>
-    <t id="40">Tausch nicht möglich: %s</t>
-    <t id="42">Keine freie Servicecrew verfügbar</t>
+    <t id="28">Auswählen aus</t>
+    <t id="29">Kandidat</t>
+    <t id="30">Unbesetzter Posten. Rechtsklick, um einen Spezialisten zu befördern</t>
+    <t id="31">Hier bleiben \(als Servicecrew\)</t>
+    <t id="32">Mit Spezialist tauschen</t>
+    <t id="33">%s befördern</t>
+    <t id="34">Hier bleiben und nächstbesten Piloten an der Quelle befördern</t>
+    <t id="35">Servicecrew</t>
+    <t id="36">Marinesoldat</t>
+    <t id="37">auf %s</t>
+    <t id="38">selbes Schiff</t>
+    <t id="39">selber Sektor</t>
+    <t id="40">Beförderung nicht möglich: %s</t>
+    <t id="42">Diese Person ist nicht mehr verfügbar</t>
     <t id="43">Crew-Transfer läuft</t>
     <t id="44">Schiff führt einen kritischen Befehl aus</t>
     <t id="45">Werft hat Schiffsbauten in der Warteschlange</t>
     <t id="46">Für diesen Posten nicht möglich</t>
+    <t id="47">Kein freier Crew-Platz hier</t>
+    <t id="48">Der Posten ist unbesetzt</t>
+    <t id="49">Für Servicecrew nicht möglich</t>
+    <t id="50">Servicecrew</t>
+    <t id="51">Marinesoldaten</t>
+    <t id="52">Piloten</t>
+    <t id="53">Manager</t>
+    <t id="55">Nur beim Befördern eines Schiffspiloten</t>
+    <t id="56">Niemand auf dem Schiff oder der Station des Kandidaten zum Befördern</t>
+    <t id="57">Pilot</t>
+    <t id="58">Lässt %s ohne Piloten</t>
+    <t id="59">Nur beim Befördern eines Stationsmanagers</t>
+    <t id="60">Manager</t>
+    <t id="61">Lässt %s ohne Manager</t>
+    <t id="64">Kein Schiff kann diesen Manager unterwegs aufnehmen</t>
   </page>
 </language>

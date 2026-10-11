@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="34">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Intercambiar tripulación</t>
-    <t id="11">Reclutar de la tripulación</t>
-    <t id="20">Reemplazar</t>
-    <t id="21">Mejor disponible</t>
-    <t id="23">o mejor</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Ascender especialista</t>
+    <t id="11">Ascender especialista</t>
+    <t id="20">Reemplazar a %s por un especialista</t>
+    <t id="21">Cualquiera</t>
     <t id="24">%d disponibles</t>
-    <t id="25">No hay tripulación de servicio libre de este nivel</t>
+    <t id="25">Nadie disponible. Elige otras funciones o valoraciones.</t>
     <t id="26">Actual:</t>
-    <t id="27">Elige a %s en %s %s</t>
-    <t id="30">Puesto vacante. Clic derecho para reclutar de la tripulación</t>
-    <t id="40">Intercambio imposible: %s</t>
-    <t id="42">No hay tripulación de servicio libre</t>
+    <t id="28">Elegir entre</t>
+    <t id="29">Candidato</t>
+    <t id="30">Puesto vacante. Clic derecho para ascender a un especialista</t>
+    <t id="31">Quedarse aquí \(como tripulación de servicio\)</t>
+    <t id="32">Intercambiar con el especialista</t>
+    <t id="33">Ascender a %s</t>
+    <t id="34">Quedarse aquí y ascender al siguiente mejor piloto en el origen</t>
+    <t id="35">Tripulación de servicio</t>
+    <t id="36">Marine</t>
+    <t id="37">en %s</t>
+    <t id="38">misma nave</t>
+    <t id="39">mismo sector</t>
+    <t id="40">Ascenso imposible: %s</t>
+    <t id="42">Esta persona ya no está disponible</t>
     <t id="43">Traslado de tripulación en curso</t>
     <t id="44">La nave está ejecutando una orden crítica</t>
     <t id="45">El astillero tiene construcciones en cola</t>
     <t id="46">No es posible para este puesto</t>
+    <t id="47">No hay plazas de tripulación libres aquí</t>
+    <t id="48">El puesto está vacante</t>
+    <t id="49">No es posible para la tripulación de servicio</t>
+    <t id="50">Tripulación de servicio</t>
+    <t id="51">Marines</t>
+    <t id="52">Pilotos</t>
+    <t id="53">Gerentes</t>
+    <t id="55">Solo al ascender a un piloto de nave</t>
+    <t id="56">Nadie para ascender en la nave o estación del candidato</t>
+    <t id="57">Piloto</t>
+    <t id="58">Deja %s sin piloto</t>
+    <t id="59">Solo al ascender a un gerente de estación</t>
+    <t id="60">Gerente</t>
+    <t id="61">Deja %s sin gerente</t>
+    <t id="64">Ninguna nave puede llevar a este gerente de camino</t>
   </page>
 </language>

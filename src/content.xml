@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="swap_crew"
-  name="Swap Crew"
+<content id="promote_specialist"
+  name="Promote Specialist"
   description="Replace this person with a better skilled one."
   author="stemps"
   version="0"

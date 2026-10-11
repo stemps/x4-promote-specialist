@@ -2,23 +2,47 @@
 <!-- Page 990483 belongs to this mod. t/ files are unioned across base, DLC and
      mods, so another mod using the same page id would merge entries with it. -->
 <language>
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Swap crew</t>
-    <t id="11">Recruit from crew</t>
-    <t id="20">Replace</t>
-    <t id="21">Best available</t>
-    <t id="23">or better</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Promote specialist</t>
+    <t id="11">Promote specialist</t>
+    <t id="20">Replace %s with Specialist</t>
+    <t id="21">Any</t>
     <t id="24">%d available</t>
-    <t id="25">No free service crew at this level</t>
+    <t id="25">Nobody available. Choose other crew roles or star ratings.</t>
     <t id="26">Current:</t>
-    <t id="27">Picks %s on %s %s</t>
-    <t id="30">Empty post. Right-click to recruit from crew</t>
-    <t id="40">Swap not possible: %s</t>
-    <t id="42">No free service crew available</t>
+    <t id="28">Choose from</t>
+    <t id="29">Candidate</t>
+    <t id="30">Empty post. Right-click to promote a specialist</t>
+    <t id="31">Stay here \(as service crew\)</t>
+    <t id="32">Swap with specialist</t>
+    <t id="33">Promote %s</t>
+    <t id="34">Stay here and promote next best pilot at source</t>
+    <t id="35">Service crew</t>
+    <t id="36">Marine</t>
+    <t id="37">on %s</t>
+    <t id="38">same ship</t>
+    <t id="39">same sector</t>
+    <t id="40">Promotion not possible: %s</t>
+    <t id="42">This person is no longer available</t>
     <t id="43">Crew transfer in progress</t>
     <t id="44">Ship is busy with a critical order</t>
     <t id="45">Shipyard has ship builds queued</t>
     <t id="46">Not possible for this post</t>
+    <t id="47">No free crew slot here</t>
+    <t id="48">The post is empty</t>
+    <t id="49">Not possible for service crew</t>
+    <t id="50">Service crew</t>
+    <t id="51">Marines</t>
+    <t id="52">Pilots</t>
+    <t id="53">Managers</t>
+    <t id="55">Only when promoting a ship pilot</t>
+    <t id="56">Nobody at the candidate's ship or station to promote</t>
+    <t id="57">Pilot</t>
+    <t id="58">Leaves %s without a pilot</t>
+    <t id="59">Only when promoting a station manager</t>
+    <t id="60">Manager</t>
+    <t id="61">Leaves %s without a manager</t>
+    <t id="64">No ship can take this manager on the way</t>
   </page>
 </language>

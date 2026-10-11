@@ -24,13 +24,19 @@ x4-modkit (`x4mod` on PATH). Never copy its files into this repository; the
   existing older saves.
 - README.md and all files in `docs/` are end-user focused (players and mod
   developers) and maintained by the repo owner. Leave them alone.
-- Keep code modules to a focused single responsibility. Recommend refactorings if
-  you spot code that violates this.
+- Keep code modules to a focused single responsibility. Recommend refactorings
+  if you spot code that violates this.
 - Make sure to keep all language translation files in sync with the English
   version (`src/t/0001.xml`), in which the mod is developed. Auto-translate all
   new and changed keys into all languages.
-- After each turn with code changes, inform the user whether a full restart is
-  required, or if a `/reloadui` command suffices.
+- After each turn with changes to mod code, inform the user whether a full
+  restart is required, or if one of these commands suffices:
+  - `/reloadui`: Reloads Lua scripts and UI elements.
+  - `/refreshmd`: Reloads Mission Director (MD) scripts and related
+    text/missions.
+  - `/refreshai`: Reloads AIScripts.
+  - `/reloadtext` or `/rtx`: reloads translation files (if Text Reload Command
+    mod is installed).
 - Don't use em-dashes. The game can't render them. Use normal hyphens instead.
 
 ## Validation

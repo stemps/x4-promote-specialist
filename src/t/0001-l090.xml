@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language id="90">
-  <page id="990483" title="Swap Crew" voice="no">
-    <t id="1">Swap Crew</t>
-    <t id="10">Mürettebatı değiştir</t>
-    <t id="11">Mürettebattan işe al</t>
-    <t id="20">Değiştir</t>
-    <t id="21">En iyi uygun</t>
-    <t id="23">veya daha iyi</t>
+  <page id="990483" title="Promote Specialist" voice="no">
+    <t id="1">Promote Specialist</t>
+    <t id="10">Uzman terfi ettir</t>
+    <t id="11">Uzman terfi ettir</t>
+    <t id="20">%s yerine uzman getir</t>
+    <t id="21">Tümü</t>
     <t id="24">%d uygun</t>
-    <t id="25">Bu seviyede boşta servis mürettebatı yok</t>
+    <t id="25">Kimse yok. Başka roller veya yıldız seviyeleri seçin.</t>
     <t id="26">Şu an:</t>
-    <t id="27">Seçilen: %s, %s %s</t>
-    <t id="30">Boş görev. Mürettebattan işe almak için sağ tıklayın</t>
-    <t id="40">Değişim mümkün değil: %s</t>
-    <t id="42">Boşta servis mürettebatı yok</t>
+    <t id="28">Şunlardan seç</t>
+    <t id="29">Aday</t>
+    <t id="30">Boş görev. Uzman terfi ettirmek için sağ tıklayın</t>
+    <t id="31">Burada kal \(servis mürettebatı olarak\)</t>
+    <t id="32">Uzmanla değiştir</t>
+    <t id="33">%s terfi ettir</t>
+    <t id="34">Burada kal ve kaynakta bir sonraki en iyi pilotu terfi ettir</t>
+    <t id="35">Servis mürettebatı</t>
+    <t id="36">Deniz piyadesi</t>
+    <t id="37">%s üzerinde</t>
+    <t id="38">aynı gemi</t>
+    <t id="39">aynı sektör</t>
+    <t id="40">Terfi mümkün değil: %s</t>
+    <t id="42">Bu kişi artık mevcut değil</t>
     <t id="43">Mürettebat transferi sürüyor</t>
     <t id="44">Gemi kritik bir emir yürütüyor</t>
     <t id="45">Tersanede sırada gemi inşası var</t>
     <t id="46">Bu görev için mümkün değil</t>
+    <t id="47">Burada boş mürettebat yeri yok</t>
+    <t id="48">Görev boş</t>
+    <t id="49">Servis mürettebatı için mümkün değil</t>
+    <t id="50">Servis mürettebatı</t>
+    <t id="51">Deniz piyadeleri</t>
+    <t id="52">Pilotlar</t>
+    <t id="53">Yöneticiler</t>
+    <t id="55">Yalnızca bir gemi pilotu terfi ettirilirken</t>
+    <t id="56">Adayın gemisinde veya istasyonunda terfi ettirilecek kimse yok</t>
+    <t id="57">Pilot</t>
+    <t id="58">%s pilotsuz kalır</t>
+    <t id="59">Yalnızca bir istasyon yöneticisi terfi ettirilirken</t>
+    <t id="60">Yönetici</t>
+    <t id="61">%s yöneticisiz kalır</t>
+    <t id="64">Bu yöneticiyi yolda alabilecek gemi yok</t>
   </page>
 </language>

@@ -4,15 +4,15 @@
 -- has no error handling: one failing callback drops all others queued in that
 -- frame. Every body scheduled here therefore runs inside pcall.
 
-SwapCrew = SwapCrew or {}
+PromoteSpecialist = PromoteSpecialist or {}
 local S = {}
-SwapCrew.scheduler = S
+PromoteSpecialist.scheduler = S
 
 local function guarded(label, fn)
 	return function()
 		local ok, err = pcall(fn)
 		if not ok then
-			SwapCrew.log("error in %s: %s", label, tostring(err))
+			PromoteSpecialist.log("error in %s: %s", label, tostring(err))
 		end
 	end
 end
@@ -36,7 +36,7 @@ function S.poll(interval, timeout, label, step, onTimeout)
 	local function tick()
 		local ok, done = pcall(step)
 		if not ok then
-			SwapCrew.log("error in %s: %s", label, tostring(done))
+			PromoteSpecialist.log("error in %s: %s", label, tostring(done))
 			return
 		end
 		if done then
